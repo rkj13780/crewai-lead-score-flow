@@ -1,0 +1,76 @@
+
+FAST API Sample is here: https://github.com/sourangshupal/Trip-Planner-using-CrewAI
+
+To visualize the marmiad code and see the architecture: https://mermaid.live/
+
+Qdrant -> Vector Database, FAAIIS, Viviet, CROMADB,
+
+
+clone repo: https://github.com/sourangshupal/agentic_rag_crewai
+comment this line: #-e /Users/sourangshupal/Downloads/agentic_rag_crewai
+Comment all UV related install from requiment.txt
+
+---Downloads the ollama local models:
+ollama run deepseek-r1:latest
+ollama run llama3.2:latest
+
+
+
+https://docs.astral.sh/uv/getting-started/installation/#installation-methods
+
+
+---------Crew ai - Flow---------
+https://docs.crewai.com/guides/flows/first-flow
+its equivalent to LangGraph..
+
+
+-----for everythong wirte OSUM , like osam LLM
+
+----------MCP
+https://modelcontextprotocol.io/introduction
+
+--- pyproject.toml == to requirments.txt
+
+---Why do we have .toml file and requirments.txt file?
+
+-------Use LLM Evaluation framework for LLM testing
+
+------------------------Day2----------------------------------------
+https://github.com/sourangshupal/crewai-lead-score-flow
+https://docs.crewai.com/installation
+https://docs.astral.sh/uv/getting-started/installation/
+
+download and setu UV: https://docs.astral.sh/uv/getting-started/installation/#standalone-installer
+
+# pip install -e .
+# flow crewai kickstart
+
+
+I got to run the application my problem was just to know the following steps (Im working on windows):
+CONDA WAY
+1 conda create -p venv python==3.11
+2 pip install crewai
+3 pip install crewai-tools
+4 pip install -e.
+
+
+UV WAY
+uv lock
+uv sync
+uv run kickoff
+zoome meeting call: https://meet.google.com/tih-egyc-bnr?pli=1
+-----------------------------------------------------------------
+
+$uv tool install crewai
+$uv lock
+$uv sync
+$crewai flow kickoff
+
+Git related---------
+  git config --local user.email "rakeshonrediff@gmail.com"
+  git config --local user.name "rakesh"
+
+  --to push into another repp
+    git remote rename origin upstream
+    git remote add origin URL_TO_GITHUB_REPO
+    git push origin main

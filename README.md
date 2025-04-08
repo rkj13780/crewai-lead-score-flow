@@ -2,6 +2,15 @@
 
 Welcome to the Lead Score Flow project, powered by [crewAI](https://crewai.com). This example demonstrates how you can leverage Flows from crewAI to automate the process of scoring leads, including data collection, analysis, and scoring. By utilizing Flows, the process becomes much simpler and more efficient.
 
+Run Steps:
+clone
+add .env file with OPE_AI_API Key
+$uv tool install crewai
+$uv lock
+$uv sync
+$crewai flow kickoff
+
+
 ## Overview
 
 This flow will guide you through the process of setting up an automated lead scoring system. Here's a brief overview of what will happen in this flow:
